@@ -27,7 +27,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     month = input('We have data collected from January to June. Please enter the month of interest or enter "all" to explore for all data:\n').title()
-    months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
+    months = ['January', 'February', 'March', 'April', 'May', 'June', 'All', 'Jan', 'Feb', 'Mar', 'Apr', 'Jun']
     while month not in months:
         month = input('Invalid month. Please choose one from Janurary to June or "All" for all available months:\n').title()
     
@@ -35,7 +35,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
     day = input('Please enter the day of interest or enter "all" to explore for all data:\n').title()
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
+    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     while day not in days:
         day = input('Invalid day, please re=enter:\n').title()
 
