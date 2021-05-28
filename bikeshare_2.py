@@ -79,11 +79,11 @@ def load_data(city, month, day):
 
 def display_data(df):
     i = 0
-    flag = input("Do you want to view 5 rows of filtered data?\n\n").lower()
-    while flag in ['yes','y'] and i+5 < df.shape[0]:
-        print(df.iloc[i:i+5])
-        i += 5
-        flag = input("Do you want to view 5 more rows of filtered data?\n\n").lower()
+    flag = input("Do you want to view 10 rows of filtered data?\n\n").lower()
+    while flag in ['yes','y'] and i+10 < df.shape[0]:
+        print(df.iloc[i:i+10])
+        i += 10
+        flag = input("Do you want to view 10 more rows of filtered data?\n\n").lower()
 
 
 def time_stats(df):
