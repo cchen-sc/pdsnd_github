@@ -4,7 +4,7 @@
 Created this project and README file on May 27th 2021.
 
 ### Project Title
-Explore bikeshare data
+Explore bikeshare data share by Divvy Bikes
 
 ### Description
 This project is to explore the bike share system data collected from three cities: New York City, Chicago and Washington. Statistics will be provided for city and time period that user provides.
