@@ -25,7 +25,7 @@ def get_filters():
 
     # get user input for month (all, january, february, ... , june)
     month = input('We have data collected from January to June. Please enter the month of interest or enter "all" to explore for all data:\n').title()
-    months = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
+    months = ['January', 'February', 'March', 'April', 'May', 'June', 'All', 'Jan', 'Feb', 'Mar', 'Apr', 'Jun']
     while month not in months:
         month = input('Invalid month. Please choose one from Janurary to June or "All" for all available months:\n').title()
     
